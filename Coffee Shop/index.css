@@ -18,8 +18,8 @@ header{
     font-family: 'Kaushan Script', cursive;
 }
 .shopname img{
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
     padding-left: 10px;
     filter: brightness(2);
 }
@@ -103,9 +103,6 @@ header{
     font-size: 35px;
     font-family: 'Tangerine', cursive;
 }
-.cname:hover{
-    cursor: pointer;
-}
 .price{
     font-family: 'Tangerine', cursive;
     font-size: 25px;
@@ -114,4 +111,25 @@ header{
 .price:hover{
     font-size: 35px;
     transition: 0.2s;
+    cursor: pointer;
 }
+.coffees .buy button{
+    width: 70px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    background: #FFC60E;
+    font-size: 25px;
+    font-family: 'Tangerine', cursive;
+    font-weight: light;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.coffees .buy button:hover{
+    background: #713C32;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
